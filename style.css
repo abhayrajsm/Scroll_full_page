@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    scroll-snap-type:y mandatory;
+    overflow-y:scroll ;
+    height: 100vh;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop:always;
+}
+#p1{
+    background: orange;
+color: #000;
+}
+#p2{
+    background: red;
+    color: white;
+    
+}
+#p3{
+    background: white;
+    color: #000;
+}
